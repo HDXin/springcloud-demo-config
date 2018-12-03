@@ -1,5 +1,9 @@
 spring:
+<<<<<<< HEAD
+  profiles:
+=======
   profiles: 
+>>>>>>> 3beee9aba7305900bd3e7e6e7b828ba47220436d
     active:
     - dev
 
