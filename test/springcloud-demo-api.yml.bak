@@ -12,7 +12,7 @@ server:
 spring:
   profiles: local
   application:
-    name: springcloud-demo-api
+    name: springcloud-demo-config-local
 
 ---
 server:
@@ -21,7 +21,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: springcloud-demo-api
+    name: springcloud-demo-config-dev
 
 ---
 server:
@@ -30,4 +30,4 @@ server:
 spring:
   profiles: prod
   application:
-    name: springcloud-demo-api
+    name: springcloud-demo-config-prod
